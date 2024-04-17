@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcebe378-54d8-406e-9c04-cbf2c901e855" name="Changes" comment="" />
+    <list default="true" id="fcebe378-54d8-406e-9c04-cbf2c901e855" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/DaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/DaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/DaoImplVWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/DaoImplVWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/IMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/IMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pres/Pres2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pres/Pres2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pres/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pres/Presentation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2eGlfLoEIDfTPFh4j3Ni6dj8OLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,15 +43,65 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Pres2.executor": "Run",
+    "Application.Presentation.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Beeclick/IdeaProjects/Projet01_Rachid_EL_KADAH/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Projet01_Rachid_EL_KADAH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pres2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pres.Pres2" />
+      <module name="Projet01_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Presentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pres.Presentation" />
+      <module name="Projet01_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Pres2" />
+        <item itemvalue="Application.Presentation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,20 +110,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711538899191</updated>
-      <workItem from="1711538900271" duration="2000" />
+      <workItem from="1711538900271" duration="1541000" />
+      <workItem from="1711978052925" duration="3095000" />
+      <workItem from="1713298884856" duration="1437000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/pres/Presentation.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
